@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "BMI270")(type "KiCad")(uri "${KICAD_LIBRARIES_ROOT}/BMI270")(options "")(descr ""))
+)
