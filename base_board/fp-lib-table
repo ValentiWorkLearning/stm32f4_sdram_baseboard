@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name "BMI270")(type "KiCad")(uri "${KICAD_LIBRARIES_ROOT}/BMI270")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/BMI270")(options "")(descr ""))
   (lib (name "project_crystal")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ASCO-8.000MHZ-EK-T3")(options "")(descr ""))
   (lib (name "project_switch")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/EG2209A")(options "")(descr ""))
   (lib (name "project_typec")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/usb_type_c_print")(options "")(descr ""))

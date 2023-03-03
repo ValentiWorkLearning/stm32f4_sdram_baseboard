@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "BMI270")(type "KiCad")(uri "${KICAD_LIBRARIES_ROOT}/BMI270/BMI270.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/BMI270/BMI270.kicad_sym")(options "")(descr ""))
   (lib (name "project_crystal")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ASCO-8.000MHZ-EK-T3/ASCO-8.000MHZ-EK-T3.kicad_sym")(options "")(descr ""))
   (lib (name "project_bootswitch")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/EG2209A/EG2209A.kicad_sym")(options "")(descr ""))
   (lib (name "project_typec")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/SS-52400-002/SS-52400-002.kicad_sym")(options "SS-52400-002/")(descr "Legacy"))
