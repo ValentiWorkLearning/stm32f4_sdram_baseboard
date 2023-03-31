@@ -1,0 +1,308 @@
+<mxfile host="app.diagrams.net" modified="2023-03-31T19:01:45.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3vhJ-7VIwuz1_8rQdEZK" version="21.1.2" type="device">
+  <diagram name="Page-1" id="qqSzBwrx6gomz0lvoCYz">
+    <mxGraphModel dx="1892" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-6" target="Syr4dOrZOAGMExWZFKwd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-6" target="Syr4dOrZOAGMExWZFKwd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-6" target="Syr4dOrZOAGMExWZFKwd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-6" target="Syr4dOrZOAGMExWZFKwd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-6" value="STM32F4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-8" value="SDRAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-9" value="External SPI Display/Onboard UART" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-10" value="I2C sensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-11" value="Debug bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-12" target="Syr4dOrZOAGMExWZFKwd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-12" value="Power management subsystem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-13" value="User button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-22" value="«interface»&lt;br&gt;&lt;b&gt;SDRAM Accesor&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-23" value="DIsplayDriver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-23">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-26" value="+ init():void&lt;br&gt;+writeBuffer():void&lt;br&gt;+isReady():void&lt;br&gt;+suspend():void&lt;br&gt;+resume():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-23">
+          <mxGeometry y="34" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-39" value="TestApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="360" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-40" value="- graphicsLayer:GraphicsLayerPtr&lt;br&gt;- driversLayer:DriverLayerPtr&lt;br&gt;-testsHolder:TestHolderPtr&lt;br&gt;- initDriversLayer():void&lt;br&gt;- initGraphicsLayer():void&lt;br&gt;-connectSignals():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-39">
+          <mxGeometry y="26" width="260" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-39">
+          <mxGeometry y="130" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-42" value="+run():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-39">
+          <mxGeometry y="138" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-43" value="GraphicsLayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="320" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-44" value="- displayDriver:DisplayDriverPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-43">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-43">
+          <mxGeometry y="52" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-46" value="+pushTestExecutionState(const std::string&amp;amp; actualTestState): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-43">
+          <mxGeometry y="60" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-47" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-44" target="Syr4dOrZOAGMExWZFKwd-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-220" y="590" as="sourcePoint" />
+            <mxPoint x="-60" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="359" />
+              <mxPoint x="-90" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-48" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-26" target="Syr4dOrZOAGMExWZFKwd-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="750" as="sourcePoint" />
+            <mxPoint x="260" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="577" />
+              <mxPoint x="290" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="770" width="525" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-20" value="«interface»&lt;br&gt;&lt;b&gt;I2C Backend&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-51">
+          <mxGeometry x="415" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-21" value="«interface»&lt;br&gt;&lt;b&gt;SPI Backend&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-51">
+          <mxGeometry x="415" y="14" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-31" value="SharedIterfaceWrapper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-51">
+          <mxGeometry width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-32" value="- activeInterface:variant&amp;lt;SPI,I2C&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-31">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-31">
+          <mxGeometry y="52" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-34" value="+ takePin(pinNumber): GpioPtr&lt;br&gt;+ takeInterface(enum AvailableSharedInterfaces):SerialInterfacePtr&lt;br&gt;+releasePin(pinNumber):void&lt;br&gt;+releaseInterface(enum AvailableSharedInterfaces):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-31">
+          <mxGeometry y="60" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-36" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Syr4dOrZOAGMExWZFKwd-51" source="Syr4dOrZOAGMExWZFKwd-20" target="Syr4dOrZOAGMExWZFKwd-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-55" y="150" as="sourcePoint" />
+            <mxPoint x="105" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-38" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Syr4dOrZOAGMExWZFKwd-51" source="Syr4dOrZOAGMExWZFKwd-21" target="Syr4dOrZOAGMExWZFKwd-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="395" y="160" as="sourcePoint" />
+            <mxPoint x="305" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-52" value="DriversHolder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="670" width="310" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-53" value="- sharedInterfaceWrapper:SharedIntrrfaceWrapperPtr&lt;br&gt;- sdramCotntroller:SDRAMController" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-52">
+          <mxGeometry y="26" width="310" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-52">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-55" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-52">
+          <mxGeometry y="98" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-56" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-52" target="Syr4dOrZOAGMExWZFKwd-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-460" y="790" as="sourcePoint" />
+            <mxPoint x="-300" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-525" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-58" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-22" target="Syr4dOrZOAGMExWZFKwd-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-170" y="850" as="sourcePoint" />
+            <mxPoint x="-10" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-295" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-59" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-31" target="Syr4dOrZOAGMExWZFKwd-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-30" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-60" value="TestProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="794" width="260" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-61" value="- activeTestsList:vector&amp;lt;variant&amp;lt;TestCase&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-60">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-60">
+          <mxGeometry y="52" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-63" value="+ runTests():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-60">
+          <mxGeometry y="60" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-67" value="TestCase&amp;lt;ConcreteTest&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="920" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-67">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-70" value="+ runCase(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-67">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-71" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-67" target="Syr4dOrZOAGMExWZFKwd-60">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-290" y="870" as="sourcePoint" />
+            <mxPoint x="-130" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="760" />
+              <mxPoint x="-35" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-72" value="SDRAMTest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1042" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-73" value="-SDRAMAccesor:SDRAMAcesorPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-72">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-72">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-75" value="+runCase():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-72">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-78" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-72" target="Syr4dOrZOAGMExWZFKwd-70">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-340" y="860" as="sourcePoint" />
+            <mxPoint x="-180" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-55" y="967" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-79" value="SensorTest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1060" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-80" value="-sensorImpl:SensorPtr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-79">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-79">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-82" value="+ runCase():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-79">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-85" value="SensorImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1140" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-87" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-85">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-88" value="+ getData():sensorData&lt;br&gt;+init():void&lt;br&gt;+suspend():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Syr4dOrZOAGMExWZFKwd-85">
+          <mxGeometry y="34" width="160" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-89" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-34" target="Syr4dOrZOAGMExWZFKwd-85">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="810" y="990" as="sourcePoint" />
+            <mxPoint x="970" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="875" />
+              <mxPoint x="280" y="1000" />
+              <mxPoint x="480" y="1000" />
+              <mxPoint x="690" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-90" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-31" target="Syr4dOrZOAGMExWZFKwd-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="510" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="577" />
+              <mxPoint x="550" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-91" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-85" target="Syr4dOrZOAGMExWZFKwd-80">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="1050" as="sourcePoint" />
+            <mxPoint x="570" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="1140" />
+              <mxPoint x="650" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-92" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-79" target="Syr4dOrZOAGMExWZFKwd-67">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="960" as="sourcePoint" />
+            <mxPoint x="470" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-93" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-60" target="Syr4dOrZOAGMExWZFKwd-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="620" as="sourcePoint" />
+            <mxPoint x="80" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Syr4dOrZOAGMExWZFKwd-98" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Syr4dOrZOAGMExWZFKwd-73" target="Syr4dOrZOAGMExWZFKwd-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-330" y="1180" as="sourcePoint" />
+            <mxPoint x="-170" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
