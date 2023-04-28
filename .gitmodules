@@ -1,0 +1,3 @@
+[submodule "cube_project/Drivers/BMI270-Sensor-API"]
+	path = cube_project/Drivers/BMI270-Sensor-API
+	url = https://github.com/boschsensortec/BMI270-Sensor-API.git
