@@ -1,33 +1,45 @@
-#![no_std]
-#![no_main]
+//! Demonstrate the use of a blocking `Delay` using the SYST (sysclock) timer.
 
-extern crate panic_halt;
+#![deny(unsafe_code)]
+#![allow(clippy::empty_loop)]
+#![no_main]
+#![no_std]
+
+// Halt on panic
+use panic_halt as _; // panic handler
 
 use cortex_m_rt::entry;
+use stm32f4xx_hal as hal;
 
-use cortex_m::peripheral::Peripherals;
+use crate::hal::{pac, prelude::*};
 
-use stm32f4xx_hal::{delay::Delay, prelude::*, stm32};
+mod sdram_impl;
 
 #[entry]
 fn main() -> ! {
-    let p = stm32::Peripherals::take().unwrap();
+    if let (Some(dp), Some(cp)) = (
+        pac::Peripherals::take(),
+        cortex_m::peripheral::Peripherals::take(),
+    ) {
+        // Set up the LED. On the Nucleo-446RE it's connected to pin PA5.
+        let gpiob = dp.GPIOB.split();
+        let mut led = gpiob.pb15.into_push_pull_output();
 
-    let cp = Peripherals::take().unwrap();
+        // Set up the system clock. We want to run at 48MHz for this one.
+        let rcc = dp.RCC.constrain();
+        let clocks = rcc.cfgr.sysclk(168.MHz()).freeze();
 
-    let gpiob = p.GPIOB.split();
+        // Create a delay abstraction based on SysTick
+        let mut delay = cp.SYST.delay(&clocks);
 
-    let mut led = gpiob.pb15.into_push_pull_output();
-    led.set_low().ok();
+        sdram_impl::setup_fmc_gpio();
 
-    let rcc = p.RCC.constrain();
-
-    let clocks = rcc.cfgr.freeze();
-
-    let mut delay = Delay::new(cp.SYST, clocks);
-
-    loop {
-        delay.delay_ms(500_u16);
-        led.toggle().ok();
+        loop {
+            // On for 1s, off for 1s.
+            led.toggle();
+            delay.delay_ms(1000_u32);
+        }
     }
+
+    loop {}
 }

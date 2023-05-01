@@ -6,22 +6,23 @@ edition = "2021"
 
 [dependencies]
 # These are fundamental cortex-m support crates
-cortex-m = "0.6.2"
-cortex-m-rt = "0.6.12"
+cortex-m = "0.7.3"
+cortex-m-rt = "0.7.3"
 panic-halt = "0.2.0"
 embedded-hal = "0.2"
 rtt-target = { version = "0.2.0", features = ["cortex-m"] }
 panic-rtt-target = { version = "0.1.0", features = ["cortex-m"] }
 cortex-m-rtic = "0.5"
+stm32-fmc = "0.3.0"
 
 [dependencies.stm32f4xx-hal]
-version = "0.8"
-features = ["rt", "stm32f401"]
+version = "0.15.0"
+features = ["rt", "stm32f446", "fmc", "fsmc_lcd" ]
 
 #[dependencies.stm32f4]
 #version = "0.10.0"
 # Edit this feature to change which STM32F4 device you are using
-#features = ["stm32f401", "rt"]
+# features = ["stm32f446", "rt", "fmc"]
 
 [profile.release]
 # Many of these settings are highly recommended or required for embedded work
