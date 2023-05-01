@@ -656,7 +656,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "base_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

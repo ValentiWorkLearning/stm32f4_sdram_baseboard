@@ -3161,10 +3161,10 @@
       (net 4 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp dc2ec18f-e299-43b6-988f-bc271bd3ded9))
     (pad "S1" thru_hole oval (at 4.32 1.075 270) (size 1 1.6) (drill oval 0.6 1.2) (layers "*.Cu" "*.Mask")
       (net 4 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 64113818-14e4-4b6a-87db-bfc16a60b35e))
-    (model "${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/project_libraries/usb_type_c_print/usb_type_c.STEP"
+      (offset (xyz 0 3.5 1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 0))
     )
   )
 
